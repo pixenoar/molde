@@ -1,0 +1,24 @@
+// FUENTES
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// VARIABLES
+
+$primary: #6610F2;
+$dark: #020617;
+$light: #FFF;
+
+$body-color: $dark;
+$font-family-sans-serif: 'Poppins', sans-serif;
+$font-size-base: .875rem;
+
+// BOOTSTRAP
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+// PIXENO
+
+body{
+    background-color: #e5e7eb;
+}

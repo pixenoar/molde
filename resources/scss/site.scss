@@ -1,0 +1,62 @@
+// FUENTES
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// VARIABLES BOOTSTRAP
+
+$primary: #6610F2;
+$dark: #020617;
+$light: #FFF;
+
+$body-color: $dark;
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+// SWIPERJS
+
+:root {
+    --swiper-navigation-size: 30px !important;
+    --swiper-navigation-color: #FFF;
+    --swiper-navigation-sides-offset: 20px;
+    --swiper-navigation-color: #FFF;
+
+    --swiper-pagination-color: #FFF;
+    --swiper-pagination-bullet-inactive-color: #FFF;
+    --swiper-pagination-bullet-inactive-opacity: 0.5;
+}
+
+// BOOTSTRAP
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+
+// PIXENO
+
+.fw-black{
+    font-weight: 900;
+}
+
+.mt-header{
+    margin-top: 75px;
+    @include media-breakpoint-up(lg) {
+        margin-top: 150px;
+    }
+}
+
+// SWIPERJS
+
+.swiper-slide {
+    height: auto !important;
+}
+
+.swiper-pagination-primary{
+
+    .swiper-pagination-bullet{
+        background-color: $primary !important;
+    }
+
+    .swiper-pagination-bullet-active{
+        background-color: $primary !important;
+    }
+
+}

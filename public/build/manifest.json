@@ -1,0 +1,58 @@
+{
+  "_bootstrap.esm-5f0a523d.js": {
+    "file": "assets/bootstrap.esm-5f0a523d.js"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-999550fa.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-cfe45b98.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "resources/js/auth.js": {
+    "file": "assets/auth-ffa2faf6.js",
+    "isEntry": true,
+    "src": "resources/js/auth.js"
+  },
+  "resources/js/dash.js": {
+    "file": "assets/dash-83397d05.js",
+    "imports": [
+      "resources/js/auth.js",
+      "_bootstrap.esm-5f0a523d.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/dash.js"
+  },
+  "resources/js/site.css": {
+    "file": "assets/site-9012858d.css",
+    "src": "resources/js/site.css"
+  },
+  "resources/js/site.js": {
+    "css": [
+      "assets/site-9012858d.css"
+    ],
+    "file": "assets/site-39044ca3.js",
+    "imports": [
+      "resources/js/auth.js",
+      "_bootstrap.esm-5f0a523d.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/site.js"
+  },
+  "resources/scss/auth.scss": {
+    "file": "assets/auth-9976d636.css",
+    "isEntry": true,
+    "src": "resources/scss/auth.scss"
+  },
+  "resources/scss/dash.scss": {
+    "file": "assets/dash-7dfed980.css",
+    "isEntry": true,
+    "src": "resources/scss/dash.scss"
+  },
+  "resources/scss/site.scss": {
+    "file": "assets/site-fdb6b614.css",
+    "isEntry": true,
+    "src": "resources/scss/site.scss"
+  }
+}
